@@ -28,7 +28,7 @@ else:
     df_referencias = pd.DataFrame({"Modelo": referencias})
 
     # Guardar el DataFrame en un archivo Excel en la carpeta Temp
-    ruta_archivo = 'C:/Users/smeza/OneDrive - PANAMA JACK, S.L.U/Escritorio/Sergio/AutoExcels/'
+    ruta_archivo = ''
     df_referencias.to_excel(ruta_archivo + "modelos.xlsx", index=False)
 
     # Abrir la carpeta donde se ha guardado el archivo
